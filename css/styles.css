@@ -19,6 +19,15 @@ body {
   letter-spacing: 0.03em;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 0;
+}
+
 .list {
   list-style: none;
 }
@@ -83,6 +92,7 @@ body {
 
 .hero {
   background-color: var(--bg-footer-color);
+  box-sizing: border-box;
 }
 
 .hero-head {
@@ -93,7 +103,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primaci-bg-color);
-}
+ }
 
 .hero-btn {
   font-family: 'Roboto';
