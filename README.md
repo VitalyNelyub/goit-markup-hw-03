@@ -26,3 +26,13 @@ ul, ol {
   margin: 0;
   padding-left: 0;
 }
+
+html {
+  box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+  box-sizing: inherit;
+}
