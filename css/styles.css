@@ -173,6 +173,10 @@ ol {
   background-color: var(--bgc-btn);
 }
 
+.team-photo {
+  margin-bottom: 30px;
+}
+
 .work-title {
   color: var(--title-text-color);
   font-weight: 700;
