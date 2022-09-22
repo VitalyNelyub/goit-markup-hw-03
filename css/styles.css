@@ -200,8 +200,12 @@ padding-bottom: 94px;
 
 .team {
   padding-top: 94px;
+}
+
+.team .container {
   padding-bottom: 94px;
 }
+
 
 .team-title {
   color: var(--title-text-color);
