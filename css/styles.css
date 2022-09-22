@@ -15,7 +15,7 @@ html {
   box-sizing: border-box;
 }
 
-*, 
+*,
 *::before,
 *::after {
   box-sizing: inherit;
@@ -50,7 +50,7 @@ ol {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid red;
@@ -118,7 +118,8 @@ ol {
 .hero {
   background-color: var(--bg-footer-color);
   text-align: center;
-  margin-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 280px;
   /* height: 600px; */
 }
 
@@ -156,7 +157,7 @@ ol {
 /* Міркування */
 
 .mind-page {
-  margin-bottom: 94px;
+padding-top: 94px;
 }
 
 .desc-title {
@@ -171,6 +172,7 @@ ol {
 .desc-list {
   color: var(--primary-text-color);
   line-height: 1.71;
+  width: 270px;
 }
 
 /* Чим ми займаємося, Наша команда */
@@ -183,7 +185,7 @@ ol {
 }
 
 .work {
-  margin-bottom: 94px;
+padding-top: 94px;
 }
 
 .work-title {
@@ -193,6 +195,10 @@ ol {
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.team {
+  padding-top: 94px;
 }
 
 .team-title {
@@ -273,8 +279,10 @@ ol {
 
 /* Портфоліо */
 
-.header-portfolio {
-  margin-bottom: 94px;
+
+.filter {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .filter-btn {
