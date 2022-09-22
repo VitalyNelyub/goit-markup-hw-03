@@ -53,7 +53,7 @@ ol {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   margin: 0 auto;
 }
 
@@ -69,6 +69,7 @@ ol {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 
 .head-logo {
   color: var(--accent-color);
@@ -97,6 +98,7 @@ ol {
 .head-nav {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .navigation .nav-link {
@@ -144,7 +146,6 @@ ol {
 
 .hero {
   background-color: var(--bg-footer-color);
-  text-align: center;
 }
 
 .hero-page {
@@ -159,6 +160,7 @@ ol {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primaci-bg-color);
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px;
@@ -174,6 +176,8 @@ ol {
   color: var(--primaci-bg-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
   border-radius: 4px;
   min-width: 216px;
 }
@@ -186,8 +190,8 @@ ol {
 
 /* Міркування */
 .mind {
-padding-top: 94px;
-padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .desc {
@@ -226,7 +230,6 @@ padding-bottom: 94px;
   background-color: var(--bgc-btn);
 }
 
-
 .work-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -235,7 +238,6 @@ padding-bottom: 94px;
   text-align: center;
   margin-bottom: 50px;
 }
-
 
 .team .container {
   padding-bottom: 94px;
@@ -338,7 +340,6 @@ padding-bottom: 94px;
 
 /* Портфоліо */
 
-
 .btn-list {
   display: flex;
   gap: 8px;
@@ -373,14 +374,13 @@ padding-bottom: 94px;
   gap: 30px;
   row-gap: 30px;
   flex-wrap: wrap;
-  outline: 1px solid #eeeeee;
   padding-bottom: 94px;
 }
 
 .gallery-projects li {
+  outline: 1px solid #eeeeee;
   width: calc((100% - 60px) / 3);
 }
-
 
 .project-title {
   color: var(--title-text-color);
@@ -390,6 +390,7 @@ padding-bottom: 94px;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
   padding-top: 20px;
+  padding-left: 24px;
 }
 
 .project-item {
@@ -397,5 +398,5 @@ padding-bottom: 94px;
   font-size: 16px;
   line-height: 1.88;
   padding-bottom: 20px;
+  padding-left: 24px;
 }
-
