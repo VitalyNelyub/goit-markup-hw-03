@@ -219,6 +219,7 @@ ol {
 .work-list {
   display: flex;
   gap: 30px;
+  height: 294px;
 }
 
 .work-img {
