@@ -359,12 +359,15 @@ button {
 
 /* Портфоліо */
 
+.filter {
+  padding: 94px 0;
+}
+
 .btn-list {
   display: flex;
   gap: 8px;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .filter-btn {
@@ -377,9 +380,8 @@ button {
   background-color: var(--bgc-btn);
   cursor: pointer;
   letter-spacing: 0.03em;
-  border-radius: 4px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding: 6px 22px;
+
 }
 
 .filter-btn:hover,
@@ -391,14 +393,16 @@ button {
 .gallery-projects {
   display: flex;
   gap: 30px;
-  row-gap: 30px;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 
 .gallery-projects li {
   outline: 1px solid #eeeeee;
   width: calc((100% - 60px) / 3);
+}
+
+.project-text {
+  padding: 20px 24px;
 }
 
 .project-title {
@@ -408,14 +412,10 @@ button {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
-  padding-top: 20px;
-  padding-left: 24px;
 }
 
 .project-item {
   columns: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
-  padding-bottom: 20px;
-  padding-left: 24px;
 }
